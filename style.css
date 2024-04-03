@@ -1,0 +1,411 @@
+body {
+    background-color: rgb(242, 245, 250);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 100vh;
+
+
+}
+
+.nav-brand {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+.ul-nav {
+    font-weight: bolder;
+}
+
+.nav-button {
+    padding: 1rem;
+    width: 12rem;
+    color: white;
+    background-color: rgb(7, 175, 7);
+}
+
+.nav-button a {
+color: white;
+text-decoration: none;
+
+}
+.nav-button a:hover {
+    color: black;
+
+
+}
+
+.first-txt h1 {
+    font-weight: bold;   
+}
+
+.first-txt p {
+    font-weight: bold;
+}
+
+.first-txt,
+span {
+    color: rgb(99, 97, 97);
+}
+
+.sect1 {
+    margin-top: 5rem;
+}
+
+.sect1 button {
+    padding: 0.7rem;
+    width: 12rem;
+}
+
+.sect3-img {
+    height: 12rem;
+}
+
+.sect4 {
+    margin-top: 2rem;
+}
+
+.sect4 .para1 {
+    font-size: 2rem;
+}
+
+.sect4 .col1 {
+    background-color: white;
+    border-radius: 1rem;
+
+}
+
+.col1:hover {
+    padding: 1rem;
+    box-shadow: 1px 1px 2px rgb(9, 63, 9);
+    transition: all .8s ease-out;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color: rgb(243, 205, 101);
+
+}
+
+.sect4 .col2 {
+    background-color: white;
+    border-radius: 1rem;
+
+}
+
+.col2:hover {
+    padding: 1rem;
+    box-shadow: 1px 1px 2px rgb(9, 63, 9);
+    transition: all .8s ease-out;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color: rgb(243, 205, 101);
+
+}
+
+.sect4 .col3 {
+    background-color: white;
+    border-radius: 1rem;
+
+}
+
+.col3:hover {
+    padding: 1rem;
+    box-shadow: 1px 1px 2px rgb(9, 63, 9);
+    transition: all .8s ease-out;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color: rgb(243, 205, 101);
+
+}
+
+.sect5 {
+    background-color: white;
+    border-radius: 1rem;
+  
+}
+
+.sect5-img {
+    max-width: 100%;
+    height: 100%;
+    margin-left: 1rem;
+
+
+
+
+}
+.sect5-text {
+   margin-left: 1rem;
+}
+
+.pop {
+    position: relative;
+    filter: contrast(15);
+
+}
+
+.pop1 {
+    animation: switch 8s infinite ease-in-out;
+
+}
+
+/* @keyframes switch {
+    0%,
+    50%,
+    80% {
+        filter: blur(0px);
+        opacity: 1;
+
+    }
+    50%,
+    80% {
+        filter: blur(10px);
+        opacity: 0;
+    }
+} */
+
+.sect6 {
+    border-radius: 1rem;
+    justify-content: space-between;
+
+}
+
+.col1-sect6 {
+    padding-left: 3rem;
+}
+
+.col2-sect6 {
+    padding-left: 4rem;
+
+}
+
+.sect6 span {
+    font-size: smaller;
+    color: rgb(173, 177, 173);
+    text-shadow: 1px 2px 3px 4px;
+}
+
+.img11 {
+    width: auto;
+    margin-left: 5rem;
+
+}
+
+.sect7 .col11 {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 1rem;
+
+}
+
+.sect7 .col12 {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 1rem;
+
+
+}
+
+.sect7 .col13 {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 1rem;
+
+}
+
+.sect7 .col14 {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 1rem;
+
+}
+.col15 span {
+    font-size: 0.9rem;
+    color: green;
+}
+
+.build {
+display:flex;
+
+}
+
+.sect8 .col16 {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 1rem;
+    
+}
+
+.sect8 .col17 {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 1rem;
+    
+}
+
+.sect8 .col18 {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 1rem;
+    
+}
+.col16 i {
+  color: blueviolet;  
+  background-color: rgb(214, 196, 231);
+  padding: 0.5rem;
+  margin-top:rem;
+  border-radius: 50%;
+}
+
+.col17 i {
+    color: red;  
+    background-color: rgb(247, 215, 215);
+    padding: 0.5rem;
+    margin-top: rem;
+    border-radius: 50%;
+  }
+
+  .col18 i {
+    color: lightskyblue;  
+    background-color: rgb(199, 217, 228);
+    padding: 0.5rem;
+    margin-top: rem;
+    border-radius: 50%;
+  }
+
+  .sect9 i {
+    background-color: rgb(7, 175, 7);
+    border-radius: 50%;
+    margin: 3px;
+    padding: 5px;
+    color: white;
+  }
+
+  .sect110 i {
+
+    font-size: 2rem;
+  }
+
+.award {
+    gap: 0.7rem;
+}
+
+.sect10 .col19 {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 1rem;
+    
+}
+
+.sect10 .col20 {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 1rem;
+    
+}
+
+.sect10 .col21 {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 1rem;
+    
+}
+
+.sect10 i {
+background-color: rgb(7, 175, 7);
+border-radius: 50%;
+margin: 3px;
+padding: 5px;
+color: white;
+}
+
+.sect11 button {
+    background-color:rgb(7, 175, 7);
+    color: #ffff;
+}
+
+.sect11 {
+    background-color: #ffff;
+    border-radius: 2rem;
+  padding: 3rem;
+}
+
+.sect11 a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.sect11 a:hover {
+    color: black;
+}
+
+.sect11img1 {
+    border-radius: 50%;
+    width: 6rem;
+    height: 6rem;
+    margin-top: -8rem;
+}
+
+.sect11img2 {
+    border-radius: 50%;
+    width: 8rem;
+    height: 8rem;
+    margin-left: 70rem;
+    margin-top: -7rem;
+}
+
+.sect13 i {
+    font-size: 5rem;
+
+}
+
+.sect13 a {
+    text-decoration: none;
+    color: rgb(173, 169, 169);
+    
+
+}
+
+.sect13 a:active {
+    color: blue;
+
+}
+
+
+
+@media screen and (max-width: 500px) {
+    .sect3-img {
+        height: 8rem;
+    }
+
+    .sect6-img {
+        margin-left: rem;
+        width: rem;
+
+
+    }
+
+    
+    
+    
+
+
+
+
+
+
+
+
+
+}
+@media screen and (max-width: 700px) {
+   
+}
